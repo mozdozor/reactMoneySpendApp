@@ -7,7 +7,7 @@ import "../main.css"
 export default function Header({money,total}) {
   return (
     <div className='header'>
-      deneme  
+        
 
       {
         total ? <>
