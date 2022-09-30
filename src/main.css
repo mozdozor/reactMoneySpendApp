@@ -1,0 +1,66 @@
+
+
+
+.header {
+
+    background: linear-gradient(to bottom left,red, yellow, green,black);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    position:sticky;
+    top:0px;
+
+
+}
+
+
+.header span {
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.product {
+
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid #ddd;
+    margin: 5px;
+    width: 25%;
+ 
+
+}
+
+.product button {
+    cursor: pointer;
+}
+
+.product img {
+    width: 100%;
+    height: 60%;
+}
+
+
+.products-container{
+
+
+    max-width: 1000px;
+    margin: 20px auto 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap:15px;
+
+}
+
+.basket {
+
+    margin-top: 30px;
+
+}
